@@ -10,9 +10,9 @@ const password =  passwordField.value;
 // step-4 verify the user
 if(email == 'sontan@gmail.com'&& password == 'admin12')
 {
-    console.log('valid user');
+    window.location.href = 'bank.html';
 }
 else{
-    console.log('invalid user');
+    alert('invalid user');
 }
 })
